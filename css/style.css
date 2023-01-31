@@ -13,10 +13,14 @@ span {
     display: inline-block;
 }
 
+section {
+    margin-bottom: 45px;
+}
+
 /* HEADER */
 img {
-    margin-top: 10px;
-    margin-left: 10px;
+    margin-left: 3%;
+    vertical-align: middle;
 }
 
 header {
@@ -30,22 +34,23 @@ h1 {
     display: inline-block;
 }
 
-/* MAIN */
-main {
+
+
+/* SECTION MAIN HEADER */
+#main-header {
     width: 80%;
     background-color: white;
     margin: auto;
     margin-top: 3%;
-    margin-bottom: 3%;
     border-radius: 10px;
     padding: 3% 3% 0% 3%;
-    border-bottom: 2px solid #f6f8f9;
-}  
+    border-bottom: 4px solid #f6f8f9;
+}
 
-/* SECTION MAIN HEADER */
 #main-header > span {
     height: 40px;
     width: 130px;
+    font-weight: 800;
     text-align: center;
     line-height: 40px;
     border-radius: 6px;
@@ -54,8 +59,39 @@ main {
 }
 #add-task {
     background-color: #47adf1;
+    color: white;
 }
 
 #add-section {
-    border: 2px solid #e4e7e9;
+    border: 1px solid #e4e7e9;
+    color: #e4e7e9;
 } 
+
+/* SECTION MAIN PAGE */
+.main-page {
+    width: 80%;
+    background-color: white;
+    margin: auto;
+    margin-bottom: 3%;
+    border-radius: 10px;
+    padding: 3%;
+}
+
+h2::before {
+    content: '\25BC';
+    font-size: 16px;
+}
+
+.do::before {
+    content: '\2705';
+
+}
+
+.editorial::after {
+    content: 'Editorial';
+    color: white;
+    margin-left: 5px;
+    background-color: #45abea;
+    padding: 5px;
+    border-radius: 20px;
+}
