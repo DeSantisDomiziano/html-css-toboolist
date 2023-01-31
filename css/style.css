@@ -1,7 +1,16 @@
-body {
+* {
+    padding: 0;
     margin: 0;
-    background-color: #f6f8f9;
+    box-sizing: border-box;
     font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+    background-color: #f6f8f9;
+}
+
+span {
+    display: inline-block;
 }
 
 /* HEADER */
@@ -20,3 +29,33 @@ h1 {
     margin: 0;
     display: inline-block;
 }
+
+/* MAIN */
+main {
+    width: 80%;
+    background-color: white;
+    margin: auto;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    border-radius: 10px;
+    padding: 3% 3% 0% 3%;
+    border-bottom: 2px solid #f6f8f9;
+}  
+
+/* SECTION MAIN HEADER */
+#main-header > span {
+    height: 40px;
+    width: 130px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 6px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+#add-task {
+    background-color: #47adf1;
+}
+
+#add-section {
+    border: 2px solid #e4e7e9;
+} 
